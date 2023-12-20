@@ -1,0 +1,66 @@
+$chamfer:15rpx;
+$width:95%;
+@mixin chamfer($size:10rpx) {
+	width: $width;
+	border-radius: $chamfer;
+	margin: $size auto;
+}
+
+@mixin absolute ($top, $left:55%) {
+	position: absolute;
+	top: $top;
+	left: $left;
+	@if $left==50% {
+		transform: translateX(-$left);
+	}
+}
+	
+@mixin hide ($num:2,$max:85rpx){
+	 display: -webkit-box;
+	 -webkit-line-clamp: $num;
+	 -webkit-box-orient: vertical;
+	 text-overflow: ellipsis;
+	 overflow: hidden;
+	 max-height: $max;
+}
+
+@mixin image ($width,$height,$radius:0){
+	width: $width;
+  height: $height;
+	@if $radius != 0	{
+		border-radius:$radius
+	}
+}
+
+@mixin flex ($flow:row nowrap,$justify:stretch,$align:stretch){
+	display: flex;
+	flex-flow: $flow;
+	justify-content: $justify;
+	@if $align != stretch {
+		align-items: $align;
+	}
+}
+
+@mixin gong {
+				width: 95%;
+				margin: 20rpx auto;
+				background-color: #fff;
+				border-radius: 15rpx;
+				padding: 15rpx;
+			}
+
+@mixin radio {
+	@include gong;
+	margin-top: 20rpx;
+	view{
+		@include flex( row nowrap,space-between);
+		margin: 25rpx 0;
+		radio{
+			transform: scale(0.9);
+		}
+	}
+}
+
+
+				 
+			 

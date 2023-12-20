@@ -1,0 +1,296 @@
+@font-face {
+   font-family: "aj"; 
+  src:url('~@/static/iconfont/iconfont.ttf?t=1650809856600') format('truetype');
+}
+.aj-flower_circle:before {
+  content: "\e609";
+}
+
+.aj-meihua:before {
+  content: "\e66d";
+}
+
+.aj-huaduo:before {
+  content: "\e60f";
+}
+.aj-navicon-rqfz:before {
+  content: "\e67f";
+}
+
+.aj-fingerprint:before {
+  content: "\e905";
+}
+.aj {
+  font-family: "aj" !important;
+  font-size: 16px;
+	font-style: normal;
+}
+.aj-zhiwen:before {
+  content: "\e61d";
+}
+
+.aj-denglong:before {
+  content: "\e60e";
+}
+
+.aj-dahongdenglong:before {
+  content: "\e661";
+}
+
+
+.aj-kuaidiyuan:before {
+  content: "\e604";
+}
+.aj-hongbao:before {
+  content: "\e632";
+}
+.aj-fenlei2:before {
+  content: "\e60b";
+}
+.aj-guanzhu:before {
+  content: "\e605";
+}
+.aj-fenlei:before {
+  content: "\e612";
+}
+
+.aj-shouhou:before {
+  content: "\e63c";
+  
+}
+
+.aj-fenlei1:before {
+  content: "\e656";
+}
+
+.aj-iconlianxi:before {
+  content: "\e60d";
+  font-size: 35rpx;
+  margin-right: 10rpx;
+}
+
+.aj-daohang:before {
+  content: "\e640";
+  color: #f74c39;
+  font-size: 35rpx;
+  margin-right: 10rpx;
+}
+
+.aj-xiangxiajiantou:before {
+  content: "\e674";
+}
+.aj-shanchu:after {
+  content: "\e8b6";
+  font-size: 40rpx;
+}
+.aj-fenxiang:after {
+  content: "\e7c5";
+  font-size: 40rpx;
+  color: #484b4d;
+}
+.aj-gouwuche:before {
+  content: "\e70b";
+  font-size: 50rpx;
+  color: #fff;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.aj-leidian:before {
+  content: "\e60c";
+	font-size: 25rpx;
+	color: #068e0f;
+}
+
+.aj-jifen1:before {
+  content: "\e624";
+}
+
+.aj-jilu:before {
+  content: "\e623";
+}
+.aj-consumption:before {
+  content: "\e6f1";
+  font-size: 50rpx;
+  color: #ef5858;
+}
+.aj-xiangzuojiantou:before {
+  content: "\e660";
+  font-size: 45rpx;
+}
+.aj-jiangxu:after {
+  content: "\e6a1";
+  font-size: 18rpx;
+}
+
+.aj-shengxu:after {
+  content: "\e751";
+  font-size: 18rpx;
+}
+.aj-gengduo:before {
+  content: "\e719";
+  font-size: 50rpx;
+}
+.aj-tianjia:after {
+  content: "\e622";
+  color:#facc40;
+  font-size: 35rpx;
+}
+
+.aj-quan:before {
+  content: "\e6b0";
+  color:#f15454;
+  font-size: 50rpx;
+}
+.aj-xingxing:before {
+  content: "\e603";
+	color:red
+}
+
+.aj-chenggong1:before {
+  content: "\e644";
+	color: red;
+	margin-right: 10rpx;
+}
+
+.aj-huiyuan:before {
+  content: "\e673";
+	color: red;
+	margin-right: 20rpx;
+}
+
+.aj-weixinzhifu:before {
+  content: "\e60a";
+	color: green;
+	font-size: 40rpx;
+	margin-right: 20rpx;
+	vertical-align: middle;
+}
+
+.aj-xiugaioryijian::after {
+  content: "\e602";
+	font-size: 50rpx;
+}
+
+.aj-31dingwei:before {
+  content: "\e601";
+}
+
+.aj-aixin:before {
+  content: "\eca1";
+}
+
+.aj-aixinI:after {
+  content: "\eca1";
+}
+
+.aj-anquanbaozhang-xianxing:before {
+  content: "\e88c";
+}
+
+.aj-yunshu:before {
+  content: "\e61c";
+}
+
+.aj-iconhuaban1-06:before {
+  content: "\e611";
+  font-size: 60rpx;
+}
+
+.aj-jiahao:after {
+  content: "\e726";
+	font-size: 40rpx;
+}
+
+.aj-dianzan:before {
+  content: "\e8c3";
+	color: #ebd8b8;
+	margin-right: 4rpx;
+}
+
+.aj-jiu:before {
+  content: "\e6b9";
+}
+
+.aj-a-tianjiaguanzhuguanzhu:before {
+  content: "\e6aa";
+}
+
+.aj-fapiao:after {
+  content: "\e932";
+}
+
+.aj-huiyuanzhongxin:before {
+  content: "\e77e";
+}
+
+.aj-kefu:before {
+  content: "\e62d";
+}
+
+.aj-jifen:before {
+  content: "\e61e";
+}
+
+.aj-pintuan:before {
+  content: "\e62c";
+}
+
+.aj-setting-fill:before {
+  content: "\e636";
+}
+
+.aj-libao:before {
+  content: "\e606";
+}
+
+.aj-line-111:before {
+  content: "\e773";
+}
+
+.aj-erweima:after {
+  content: "\e65f";
+}
+
+.aj-31daishouhuo:before {
+  content: "\e600";
+}
+
+.aj-daifukuan:before {
+  content: "\e607";
+}
+
+.aj-daipingjia:before {
+  content: "\e772";
+  font-size: 30rpx;
+  margin-right: 5rpx;
+}
+
+.aj-tuihuotuikuan:before {
+  content: "\e7af";
+}
+
+.aj-huiyuan1:before {
+  content: "\e737";
+}
+
+.aj-lingqu:before {
+  content: "\e608";
+}
+
+.aj-jinrujiantou:after {
+  content: "\e8f1";
+}
+
+.aj-a-9youjiankuohao:after {
+  content: "\e7c2";
+}
+
+.aj-daosanjiao:before {
+  content: "\e62a";
+}
+
+
+

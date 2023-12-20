@@ -1,0 +1,10 @@
+#不需要日交的文件
+node_modules
+unpackage
+.hbuilderx
+
+#没有的文件
+.project
+.DS_Store
+
+

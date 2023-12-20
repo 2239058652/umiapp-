@@ -1,0 +1,99 @@
+{
+	"name": "uniapp",
+	"appid": "__UNI__0AD00A8",
+	"description": "",
+	"versionName": "1.0.0",
+	"versionCode": 1,
+	"transformPx": false,
+	"app-plus": {
+		"usingComponents": true,
+		"nvueStyleCompiler": "uni-app",
+		"compilerVersion": 3,
+		"splashscreen": {
+			"alwaysShowBeforeRender": true,
+			"waiting": true,
+			"autoclose": true,
+			"delay": 0
+		},
+		"modules": {},
+		"distribute": {
+			"android": {
+				"permissions": [
+					"<uses-feature android:name=\"android.hardware.camera\"/>",
+					"<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CAMERA\"/>",
+					"<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+					"<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+					"<uses-permission android:name=\"android.permission.INSTALL_PACKAGES\"/>",
+					"<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>",
+					"<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+					"<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+				]
+			},
+			"ios": {},
+			"sdkConfigs": {
+				"ad": {},
+				"geolocation": {
+					"system": {
+						"__platform__": ["ios", "android"]
+					},
+					"amap": {
+						"__platform__": ["ios", "android"],
+						"appkey_ios": "",
+						"appkey_android": ""
+					}
+				},
+				"maps": {}
+			}
+		}
+	},
+	"quickapp": {},
+	"mp-weixin": {
+		"appid": "wxe699e2a0e9897296",
+		"requiredPrivateInfos": ["getLocation", "chooseLocation"],
+		"setting": {
+			"urlCheck": true,
+			"checkSiteMap": false,
+			"es6": true,
+			"postcss": true,
+			"minified": true
+		},
+		"usingComponents": true,
+		"permission": {
+			"scope.userLocation": {
+				"desc": "根据您的位置，为您提供附近的门店，以便为您提供更好的服务。"
+			}
+		}
+	},
+	"mp-alipay": {
+		"usingComponents": true
+	},
+	"mp-baidu": {
+		"usingComponents": true
+	},
+	"mp-toutiao": {
+		"usingComponents": true
+	},
+	"uniStatistics": {
+		"enable": false
+	},
+	"vueVersion": "2",
+	"h5": {
+		"sdkConfigs": {
+			"maps": {}
+		},
+		"router": {
+			"base": "h5/",
+			"mode": "hash"
+		},
+		"template": "template.h5.html"
+	}
+}

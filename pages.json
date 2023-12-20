@@ -1,0 +1,663 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue",
+			"^f-(.*)": "@/components/module/f-$1/f-$1.vue"
+		}
+	},
+	"requiredPrivateInfos": [
+		"chooseLocation"
+	],
+	"pages": [{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#b0ffc0",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/tabbar/supermarket/supermarket",
+			"style": {
+				"navigationBarTitleText": "超市",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ffb48c"
+			}
+		}, {
+			"path": "pages/tabbar/generalMerchandise/generalMerchandise",
+			"style": {
+				"navigationBarTitleText": "百货",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tabbar/shoppingCart/shoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tabbar/classificats/classificats",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}
+
+	],
+	"subPackages": [{
+		"root": "pages/pagesA",
+		"pages": [{
+				"path": "search/search",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "location/location",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "denglu/denglu",
+				"style": {
+					"navigationBarTitleText": "授权",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "theme/theme",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "theme2/theme2",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "goodsDetails/goodsDetails",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "order/order",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "address/address",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "newAddress/newAddress",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "myOrder/myOrder",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "paySuccess/paySuccess",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "cancleOrder/cancleOrder",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "bindcard/bindcard",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "receive/receive",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "footprint/footprint",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "useCoupon/useCoupon",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "jfgoodsDetails/jfgoodsDetails",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "afterSales/afterSales",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}
+		    ,{
+                    "path" : "ditu/ditu",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+
+	}, {
+		"root": "pages/pagesB",
+		"pages": [{
+				"path": "pointsLottery/pointsLottery",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pointsMall/pointsMall",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "consumptionBill/consumptionBill",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "payment/payment",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": true,
+					"backgroundTextStyle": "dark",
+					"backgroundColor": "#ff8262"
+				}
+			}, {
+				"path": "couponCollectionCenter/couponCollectionCenter",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "goodGoodsSpike/goodGoodsSpike",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "customerService/customerService",
+				"style": {
+					"navigationBarTitleText": "在线客服",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "liveBroadcast/liveBroadcast",
+				"style": {
+					"navigationBarTitleText": "爱家直播",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "onlineRecharge/onlineRecharge",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "giftZone/giftZone",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "classification/classification",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "cardRecharge/cardRecharge",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "mycoupon/mycoupon",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "cardYe/cardYe",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "cardJf/cardJf",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "shopcart/shopcart",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "IntegralChange/IntegralChange",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "geren/geren",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}
+		    ,{
+                    "path" : "laxin/laxin",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+                }
+                
+                }
+                ,{
+                    "path" : "xinRen-EWM/xinRen-EWM",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+                }
+                
+                }
+                ,{
+                    "path" : "xinren-geren/xinren-geren",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+                }
+                
+                }
+                ,{
+                    "path" : "xinren-paihang/xinren-paihang",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+                }
+                
+                }
+                ,{
+                    "path" : "purchaseCoupon/purchaseCoupon",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+
+	}, {
+		"root": "pages/pagesC",
+		"pages": [{
+				"path": "title1/title1",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "title2/title2",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},{
+                    "path" : "zitidian/zitidian",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                },
+			{
+				"path": "title3/title3",
+				"style": {
+					"navigationBarTitleText": "title3",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "advertisement1/advertisement1",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "advertisement2/advertisement2",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "advertisement3/advertisement3",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "advertisement4/advertisement4",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "sharequan/sharequan",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "storeSearch/storeSearch",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "newGoodsSpike/newGoodsSpike",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "redEnvelopes/redEnvelopes",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "invoice/invoice",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "tixian/tixian",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#e93423",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "tuiguanglist/tuiguanglist",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#e93423",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "tuiguangyongjin/tuiguangyongjin",
+				"navigationBarBackgroundColor": "#f44938",
+				"navigationBarTextStyle": "black",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#e93423",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "renshu/renshu",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#e93423",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "sharecart/sharecart",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#e93423",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "gifCard/gifCard",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "shopnavigation/shopnavigation",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "new_PromotionNumber/new_PromotionNumber",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "red-detail/red-detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationBarBackgroundColor": "#e93423",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "hongbao-ticket/hongbao-ticket",
+				"style": {
+					"navigationBarTitleText": "",
+					// "navigationBarBackgroundColor": "#e93423",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "yongjin-ranking/yongjin-ranking",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#e93423"
+				}
+
+			}, {
+				"path": "dongjie/dongjie",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#e93423"
+				}
+
+			}, {
+				"path": "shouyiList/shouyiList",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "tixian-record/tixian-record",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "wxshuru/wxshuru",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+
+			}
+		    ,{  
+                    "path" : "commodityPromotion/commodityPromotion",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "商品推广",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "ceshi-haibao/ceshi-haibao",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "CoupleOnly/CoupleOnly",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+                }
+                
+                }
+                ,{
+                    "path" : "chepai/chepai",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "chepailist/chepailist",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	}
+			],
+
+	"preloadRule": {},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"enablePullDownRefresh": true,
+		"onReachBottomDistance": 100
+	},
+
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#ed8292",
+		"borderStyle": "white",
+		"backgroundColor": "#fdfdfd",
+		"list": [{
+				// "text": "首页",
+				// "iconPath": "static/tabbar/home.png",
+				// "selectedIconPath": "static/tabbar/homeSelect.png",
+				"pagePath": "pages/tabbar/index/index"
+			},
+			{
+				// "text": "超市",
+				// "iconPath": "static/tabbar/supermarket.png",
+				// "selectedIconPath": "static/tabbar/supermarketSelect.png",
+				"pagePath": "pages/tabbar/supermarket/supermarket"
+			},
+			{
+				// "text": "百货",
+				// "iconPath": "static/tabbar/supermarket.png",
+				// "selectedIconPath": "static/tabbar/supermarketSelect.png",
+				"pagePath": "pages/tabbar/generalMerchandise/generalMerchandise"
+			},
+			{
+				// "text": "购物车",
+				// "iconPath": "static/tabbar/shopping.png",
+				// "selectedIconPath": "static/tabbar/shoppingSelect.png",
+				"pagePath": "pages/tabbar/shoppingCart/shoppingCart"
+			},
+			{
+				// "text": "我的",
+				// "iconPath": "static/tabbar/my.png",
+				// "selectedIconPath": "static/tabbar/mySelect.png",
+				"pagePath": "pages/tabbar/my/my"
+			}
+		]
+	}
+}
